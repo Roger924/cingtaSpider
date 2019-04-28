@@ -13,7 +13,9 @@ class cingtaSpider(scrapy.Spider):
 
 	url = 'https://www.cingta.com/page/%d/'
 	pageIndex=1
-	pageMax=106
+	
+	# You should change the crawl max page number here
+	pageMax=3
 	
 	def parse(self, response):
 			
