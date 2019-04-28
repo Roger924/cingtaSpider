@@ -1,5 +1,6 @@
 # cingtaSpider
-cingtaSpider based on scrapy
+cingtaSpider based on python 3.7.2 and scrapy.
+And only do the test on windows.
 
 #Before you run the cingtaSpider, please install the following 2 modules firstly.
 pip install pywin32
